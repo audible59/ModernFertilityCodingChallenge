@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A993BF83BE2219211EA325E2 /* libPods-ModernFertilityTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A65C6F02856DE57EAB265B6D /* libPods-ModernFertilityTests.a */; };
 		C9B1413827A48A3500CF8C04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B1413727A48A3500CF8C04 /* AppDelegate.swift */; };
 		C9B1413A27A48A3500CF8C04 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B1413927A48A3500CF8C04 /* SceneDelegate.swift */; };
 		C9B1413C27A48A3500CF8C04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B1413B27A48A3500CF8C04 /* ViewController.swift */; };
@@ -17,6 +18,8 @@
 		C9B1415227A48A3900CF8C04 /* ModernFertilityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B1415127A48A3900CF8C04 /* ModernFertilityTests.swift */; };
 		C9B1415C27A48A3900CF8C04 /* ModernFertilityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B1415B27A48A3900CF8C04 /* ModernFertilityUITests.swift */; };
 		C9B1415E27A48A3900CF8C04 /* ModernFertilityUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B1415D27A48A3900CF8C04 /* ModernFertilityUITestsLaunchTests.swift */; };
+		E33C3873AD058473948585E0 /* Pods_ModernFertility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B23015F4C92E3F594DADB22E /* Pods_ModernFertility.framework */; };
+		E42B2ADD9CB3362FE1278609 /* libPods-ModernFertilityUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FAB9A4E457FE1C83F0D269A /* libPods-ModernFertilityUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +40,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D8461CBFD74EE6182CFE500 /* Pods-ModernFertilityTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModernFertilityTests.debug.xcconfig"; path = "Target Support Files/Pods-ModernFertilityTests/Pods-ModernFertilityTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3FAB9A4E457FE1C83F0D269A /* libPods-ModernFertilityUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ModernFertilityUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		631F4E966E139F67CB6B36B0 /* Pods-ModernFertilityUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModernFertilityUITests.release.xcconfig"; path = "Target Support Files/Pods-ModernFertilityUITests/Pods-ModernFertilityUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8747079D85209FB28A768C2D /* Pods-ModernFertility.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModernFertility.release.xcconfig"; path = "Target Support Files/Pods-ModernFertility/Pods-ModernFertility.release.xcconfig"; sourceTree = "<group>"; };
+		A5CAE9B4FB2F87AC8BB3AF5D /* Pods-ModernFertility.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModernFertility.debug.xcconfig"; path = "Target Support Files/Pods-ModernFertility/Pods-ModernFertility.debug.xcconfig"; sourceTree = "<group>"; };
+		A65C6F02856DE57EAB265B6D /* libPods-ModernFertilityTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ModernFertilityTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B23015F4C92E3F594DADB22E /* Pods_ModernFertility.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ModernFertility.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B59DE8AD02AA8F88E6C78552 /* Pods-ModernFertilityTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModernFertilityTests.release.xcconfig"; path = "Target Support Files/Pods-ModernFertilityTests/Pods-ModernFertilityTests.release.xcconfig"; sourceTree = "<group>"; };
 		C9B1413427A48A3500CF8C04 /* ModernFertility.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModernFertility.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9B1413727A48A3500CF8C04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9B1413927A48A3500CF8C04 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +62,7 @@
 		C9B1415727A48A3900CF8C04 /* ModernFertilityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModernFertilityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9B1415B27A48A3900CF8C04 /* ModernFertilityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModernFertilityUITests.swift; sourceTree = "<group>"; };
 		C9B1415D27A48A3900CF8C04 /* ModernFertilityUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModernFertilityUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CBA0E1CF937344818157B293 /* Pods-ModernFertilityUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModernFertilityUITests.debug.xcconfig"; path = "Target Support Files/Pods-ModernFertilityUITests/Pods-ModernFertilityUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E33C3873AD058473948585E0 /* Pods_ModernFertility.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A993BF83BE2219211EA325E2 /* libPods-ModernFertilityTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +86,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E42B2ADD9CB3362FE1278609 /* libPods-ModernFertilityUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		10004B9AF8456DDED8F8AD12 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A5CAE9B4FB2F87AC8BB3AF5D /* Pods-ModernFertility.debug.xcconfig */,
+				8747079D85209FB28A768C2D /* Pods-ModernFertility.release.xcconfig */,
+				1D8461CBFD74EE6182CFE500 /* Pods-ModernFertilityTests.debug.xcconfig */,
+				B59DE8AD02AA8F88E6C78552 /* Pods-ModernFertilityTests.release.xcconfig */,
+				CBA0E1CF937344818157B293 /* Pods-ModernFertilityUITests.debug.xcconfig */,
+				631F4E966E139F67CB6B36B0 /* Pods-ModernFertilityUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A51253E6FA84F78B753FA54C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B23015F4C92E3F594DADB22E /* Pods_ModernFertility.framework */,
+				A65C6F02856DE57EAB265B6D /* libPods-ModernFertilityTests.a */,
+				3FAB9A4E457FE1C83F0D269A /* libPods-ModernFertilityUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C9B1412B27A48A3500CF8C04 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +124,8 @@
 				C9B1415027A48A3900CF8C04 /* ModernFertilityTests */,
 				C9B1415A27A48A3900CF8C04 /* ModernFertilityUITests */,
 				C9B1413527A48A3500CF8C04 /* Products */,
+				10004B9AF8456DDED8F8AD12 /* Pods */,
+				A51253E6FA84F78B753FA54C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -177,9 +218,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C9B1416127A48A3900CF8C04 /* Build configuration list for PBXNativeTarget "ModernFertility" */;
 			buildPhases = (
+				631000F03670E12EFD0D7E91 /* [CP] Check Pods Manifest.lock */,
 				C9B1413027A48A3500CF8C04 /* Sources */,
 				C9B1413127A48A3500CF8C04 /* Frameworks */,
 				C9B1413227A48A3500CF8C04 /* Resources */,
+				B84A0FFF19B6448303DD2C35 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -194,6 +237,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C9B1416427A48A3900CF8C04 /* Build configuration list for PBXNativeTarget "ModernFertilityTests" */;
 			buildPhases = (
+				4F301F2DA2F6FE07A9A9FBC4 /* [CP] Check Pods Manifest.lock */,
 				C9B1414927A48A3900CF8C04 /* Sources */,
 				C9B1414A27A48A3900CF8C04 /* Frameworks */,
 				C9B1414B27A48A3900CF8C04 /* Resources */,
@@ -212,6 +256,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C9B1416727A48A3900CF8C04 /* Build configuration list for PBXNativeTarget "ModernFertilityUITests" */;
 			buildPhases = (
+				59CB68B214C5A55B634CE373 /* [CP] Check Pods Manifest.lock */,
 				C9B1415327A48A3900CF8C04 /* Sources */,
 				C9B1415427A48A3900CF8C04 /* Frameworks */,
 				C9B1415527A48A3900CF8C04 /* Resources */,
@@ -295,6 +340,92 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4F301F2DA2F6FE07A9A9FBC4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ModernFertilityTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59CB68B214C5A55B634CE373 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ModernFertilityUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		631000F03670E12EFD0D7E91 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ModernFertility-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B84A0FFF19B6448303DD2C35 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ModernFertility/Pods-ModernFertility-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ModernFertility/Pods-ModernFertility-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ModernFertility/Pods-ModernFertility-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C9B1413027A48A3500CF8C04 /* Sources */ = {
@@ -411,7 +542,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -466,7 +597,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -478,6 +609,7 @@
 		};
 		C9B1416227A48A3900CF8C04 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5CAE9B4FB2F87AC8BB3AF5D /* Pods-ModernFertility.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -507,6 +639,7 @@
 		};
 		C9B1416327A48A3900CF8C04 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8747079D85209FB28A768C2D /* Pods-ModernFertility.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -536,6 +669,7 @@
 		};
 		C9B1416527A48A3900CF8C04 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D8461CBFD74EE6182CFE500 /* Pods-ModernFertilityTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -561,6 +695,7 @@
 		};
 		C9B1416627A48A3900CF8C04 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B59DE8AD02AA8F88E6C78552 /* Pods-ModernFertilityTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -586,6 +721,7 @@
 		};
 		C9B1416827A48A3900CF8C04 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBA0E1CF937344818157B293 /* Pods-ModernFertilityUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -609,6 +745,7 @@
 		};
 		C9B1416927A48A3900CF8C04 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 631F4E966E139F67CB6B36B0 /* Pods-ModernFertilityUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

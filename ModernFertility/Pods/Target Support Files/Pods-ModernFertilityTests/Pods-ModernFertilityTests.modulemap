@@ -1,0 +1,6 @@
+module Pods_ModernFertilityTests {
+  umbrella header "Pods-ModernFertilityTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
