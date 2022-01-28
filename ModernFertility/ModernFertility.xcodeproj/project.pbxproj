@@ -1,0 +1,688 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9B1413827A48A3500CF8C04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B1413727A48A3500CF8C04 /* AppDelegate.swift */; };
+		C9B1413A27A48A3500CF8C04 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B1413927A48A3500CF8C04 /* SceneDelegate.swift */; };
+		C9B1413C27A48A3500CF8C04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B1413B27A48A3500CF8C04 /* ViewController.swift */; };
+		C9B1413F27A48A3500CF8C04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9B1413D27A48A3500CF8C04 /* Main.storyboard */; };
+		C9B1414227A48A3500CF8C04 /* ModernFertility.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C9B1414027A48A3500CF8C04 /* ModernFertility.xcdatamodeld */; };
+		C9B1414427A48A3900CF8C04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9B1414327A48A3900CF8C04 /* Assets.xcassets */; };
+		C9B1414727A48A3900CF8C04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9B1414527A48A3900CF8C04 /* LaunchScreen.storyboard */; };
+		C9B1415227A48A3900CF8C04 /* ModernFertilityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B1415127A48A3900CF8C04 /* ModernFertilityTests.swift */; };
+		C9B1415C27A48A3900CF8C04 /* ModernFertilityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B1415B27A48A3900CF8C04 /* ModernFertilityUITests.swift */; };
+		C9B1415E27A48A3900CF8C04 /* ModernFertilityUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B1415D27A48A3900CF8C04 /* ModernFertilityUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C9B1414E27A48A3900CF8C04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9B1412C27A48A3500CF8C04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9B1413327A48A3500CF8C04;
+			remoteInfo = ModernFertility;
+		};
+		C9B1415827A48A3900CF8C04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9B1412C27A48A3500CF8C04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9B1413327A48A3500CF8C04;
+			remoteInfo = ModernFertility;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C9B1413427A48A3500CF8C04 /* ModernFertility.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModernFertility.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9B1413727A48A3500CF8C04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C9B1413927A48A3500CF8C04 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C9B1413B27A48A3500CF8C04 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C9B1413E27A48A3500CF8C04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C9B1414127A48A3500CF8C04 /* ModernFertility.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ModernFertility.xcdatamodel; sourceTree = "<group>"; };
+		C9B1414327A48A3900CF8C04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C9B1414627A48A3900CF8C04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C9B1414827A48A3900CF8C04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9B1414D27A48A3900CF8C04 /* ModernFertilityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModernFertilityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9B1415127A48A3900CF8C04 /* ModernFertilityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModernFertilityTests.swift; sourceTree = "<group>"; };
+		C9B1415727A48A3900CF8C04 /* ModernFertilityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModernFertilityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9B1415B27A48A3900CF8C04 /* ModernFertilityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModernFertilityUITests.swift; sourceTree = "<group>"; };
+		C9B1415D27A48A3900CF8C04 /* ModernFertilityUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModernFertilityUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9B1413127A48A3500CF8C04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9B1414A27A48A3900CF8C04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9B1415427A48A3900CF8C04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9B1412B27A48A3500CF8C04 = {
+			isa = PBXGroup;
+			children = (
+				C9B1413627A48A3500CF8C04 /* ModernFertility */,
+				C9B1415027A48A3900CF8C04 /* ModernFertilityTests */,
+				C9B1415A27A48A3900CF8C04 /* ModernFertilityUITests */,
+				C9B1413527A48A3500CF8C04 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9B1413527A48A3500CF8C04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9B1413427A48A3500CF8C04 /* ModernFertility.app */,
+				C9B1414D27A48A3900CF8C04 /* ModernFertilityTests.xctest */,
+				C9B1415727A48A3900CF8C04 /* ModernFertilityUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9B1413627A48A3500CF8C04 /* ModernFertility */ = {
+			isa = PBXGroup;
+			children = (
+				C9B1416A27A48ABF00CF8C04 /* Application Delegate */,
+				C9B1416E27A48B5F00CF8C04 /* Views */,
+				C9B1416B27A48AD100CF8C04 /* View Controllers */,
+				C9B1416D27A48B4600CF8C04 /* Networking */,
+				C9B1416C27A48B2000CF8C04 /* Storyboards */,
+				C9B1414327A48A3900CF8C04 /* Assets.xcassets */,
+				C9B1414827A48A3900CF8C04 /* Info.plist */,
+				C9B1414027A48A3500CF8C04 /* ModernFertility.xcdatamodeld */,
+			);
+			path = ModernFertility;
+			sourceTree = "<group>";
+		};
+		C9B1415027A48A3900CF8C04 /* ModernFertilityTests */ = {
+			isa = PBXGroup;
+			children = (
+				C9B1415127A48A3900CF8C04 /* ModernFertilityTests.swift */,
+			);
+			path = ModernFertilityTests;
+			sourceTree = "<group>";
+		};
+		C9B1415A27A48A3900CF8C04 /* ModernFertilityUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C9B1415B27A48A3900CF8C04 /* ModernFertilityUITests.swift */,
+				C9B1415D27A48A3900CF8C04 /* ModernFertilityUITestsLaunchTests.swift */,
+			);
+			path = ModernFertilityUITests;
+			sourceTree = "<group>";
+		};
+		C9B1416A27A48ABF00CF8C04 /* Application Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				C9B1413727A48A3500CF8C04 /* AppDelegate.swift */,
+				C9B1413927A48A3500CF8C04 /* SceneDelegate.swift */,
+			);
+			path = "Application Delegate";
+			sourceTree = "<group>";
+		};
+		C9B1416B27A48AD100CF8C04 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C9B1413B27A48A3500CF8C04 /* ViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		C9B1416C27A48B2000CF8C04 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				C9B1413D27A48A3500CF8C04 /* Main.storyboard */,
+				C9B1414527A48A3900CF8C04 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		C9B1416D27A48B4600CF8C04 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		C9B1416E27A48B5F00CF8C04 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9B1413327A48A3500CF8C04 /* ModernFertility */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9B1416127A48A3900CF8C04 /* Build configuration list for PBXNativeTarget "ModernFertility" */;
+			buildPhases = (
+				C9B1413027A48A3500CF8C04 /* Sources */,
+				C9B1413127A48A3500CF8C04 /* Frameworks */,
+				C9B1413227A48A3500CF8C04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ModernFertility;
+			productName = ModernFertility;
+			productReference = C9B1413427A48A3500CF8C04 /* ModernFertility.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C9B1414C27A48A3900CF8C04 /* ModernFertilityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9B1416427A48A3900CF8C04 /* Build configuration list for PBXNativeTarget "ModernFertilityTests" */;
+			buildPhases = (
+				C9B1414927A48A3900CF8C04 /* Sources */,
+				C9B1414A27A48A3900CF8C04 /* Frameworks */,
+				C9B1414B27A48A3900CF8C04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9B1414F27A48A3900CF8C04 /* PBXTargetDependency */,
+			);
+			name = ModernFertilityTests;
+			productName = ModernFertilityTests;
+			productReference = C9B1414D27A48A3900CF8C04 /* ModernFertilityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C9B1415627A48A3900CF8C04 /* ModernFertilityUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9B1416727A48A3900CF8C04 /* Build configuration list for PBXNativeTarget "ModernFertilityUITests" */;
+			buildPhases = (
+				C9B1415327A48A3900CF8C04 /* Sources */,
+				C9B1415427A48A3900CF8C04 /* Frameworks */,
+				C9B1415527A48A3900CF8C04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9B1415927A48A3900CF8C04 /* PBXTargetDependency */,
+			);
+			name = ModernFertilityUITests;
+			productName = ModernFertilityUITests;
+			productReference = C9B1415727A48A3900CF8C04 /* ModernFertilityUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9B1412C27A48A3500CF8C04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					C9B1413327A48A3500CF8C04 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					C9B1414C27A48A3900CF8C04 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = C9B1413327A48A3500CF8C04;
+					};
+					C9B1415627A48A3900CF8C04 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = C9B1413327A48A3500CF8C04;
+					};
+				};
+			};
+			buildConfigurationList = C9B1412F27A48A3500CF8C04 /* Build configuration list for PBXProject "ModernFertility" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C9B1412B27A48A3500CF8C04;
+			productRefGroup = C9B1413527A48A3500CF8C04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9B1413327A48A3500CF8C04 /* ModernFertility */,
+				C9B1414C27A48A3900CF8C04 /* ModernFertilityTests */,
+				C9B1415627A48A3900CF8C04 /* ModernFertilityUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9B1413227A48A3500CF8C04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9B1414727A48A3900CF8C04 /* LaunchScreen.storyboard in Resources */,
+				C9B1414427A48A3900CF8C04 /* Assets.xcassets in Resources */,
+				C9B1413F27A48A3500CF8C04 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9B1414B27A48A3900CF8C04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9B1415527A48A3900CF8C04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9B1413027A48A3500CF8C04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9B1413C27A48A3500CF8C04 /* ViewController.swift in Sources */,
+				C9B1414227A48A3500CF8C04 /* ModernFertility.xcdatamodeld in Sources */,
+				C9B1413827A48A3500CF8C04 /* AppDelegate.swift in Sources */,
+				C9B1413A27A48A3500CF8C04 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9B1414927A48A3900CF8C04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9B1415227A48A3900CF8C04 /* ModernFertilityTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9B1415327A48A3900CF8C04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9B1415E27A48A3900CF8C04 /* ModernFertilityUITestsLaunchTests.swift in Sources */,
+				C9B1415C27A48A3900CF8C04 /* ModernFertilityUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C9B1414F27A48A3900CF8C04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9B1413327A48A3500CF8C04 /* ModernFertility */;
+			targetProxy = C9B1414E27A48A3900CF8C04 /* PBXContainerItemProxy */;
+		};
+		C9B1415927A48A3900CF8C04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9B1413327A48A3500CF8C04 /* ModernFertility */;
+			targetProxy = C9B1415827A48A3900CF8C04 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C9B1413D27A48A3500CF8C04 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9B1413E27A48A3500CF8C04 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C9B1414527A48A3900CF8C04 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9B1414627A48A3900CF8C04 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9B1415F27A48A3900CF8C04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C9B1416027A48A3900CF8C04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9B1416227A48A3900CF8C04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2JS2FND328;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ModernFertility/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.modernfertility.coding.challenge.ModernFertility;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C9B1416327A48A3900CF8C04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2JS2FND328;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ModernFertility/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.modernfertility.coding.challenge.ModernFertility;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		C9B1416527A48A3900CF8C04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2JS2FND328;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.modernfertility.coding.challenge.ModernFertilityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ModernFertility.app/ModernFertility";
+			};
+			name = Debug;
+		};
+		C9B1416627A48A3900CF8C04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2JS2FND328;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.modernfertility.coding.challenge.ModernFertilityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ModernFertility.app/ModernFertility";
+			};
+			name = Release;
+		};
+		C9B1416827A48A3900CF8C04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2JS2FND328;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.modernfertility.coding.challenge.ModernFertilityUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ModernFertility;
+			};
+			name = Debug;
+		};
+		C9B1416927A48A3900CF8C04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2JS2FND328;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.modernfertility.coding.challenge.ModernFertilityUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ModernFertility;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9B1412F27A48A3500CF8C04 /* Build configuration list for PBXProject "ModernFertility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9B1415F27A48A3900CF8C04 /* Debug */,
+				C9B1416027A48A3900CF8C04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9B1416127A48A3900CF8C04 /* Build configuration list for PBXNativeTarget "ModernFertility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9B1416227A48A3900CF8C04 /* Debug */,
+				C9B1416327A48A3900CF8C04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9B1416427A48A3900CF8C04 /* Build configuration list for PBXNativeTarget "ModernFertilityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9B1416527A48A3900CF8C04 /* Debug */,
+				C9B1416627A48A3900CF8C04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9B1416727A48A3900CF8C04 /* Build configuration list for PBXNativeTarget "ModernFertilityUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9B1416827A48A3900CF8C04 /* Debug */,
+				C9B1416927A48A3900CF8C04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C9B1414027A48A3500CF8C04 /* ModernFertility.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C9B1414127A48A3500CF8C04 /* ModernFertility.xcdatamodel */,
+			);
+			currentVersion = C9B1414127A48A3500CF8C04 /* ModernFertility.xcdatamodel */;
+			path = ModernFertility.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C9B1412C27A48A3500CF8C04 /* Project object */;
+}
