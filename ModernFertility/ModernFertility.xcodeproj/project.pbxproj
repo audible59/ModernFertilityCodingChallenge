@@ -8,10 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		A993BF83BE2219211EA325E2 /* libPods-ModernFertilityTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A65C6F02856DE57EAB265B6D /* libPods-ModernFertilityTests.a */; };
+		C983ADAB27A49568008EAE56 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = C983ADAA27A49568008EAE56 /* Networking.swift */; };
+		C983ADAF27A498A4008EAE56 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = C983ADAE27A498A4008EAE56 /* Images.swift */; };
+		C983ADB327A49CB2008EAE56 /* ImagesNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = C983ADB227A49CB2008EAE56 /* ImagesNetworking.swift */; };
 		C9B1413827A48A3500CF8C04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B1413727A48A3500CF8C04 /* AppDelegate.swift */; };
 		C9B1413A27A48A3500CF8C04 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B1413927A48A3500CF8C04 /* SceneDelegate.swift */; };
-		C9B1413C27A48A3500CF8C04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B1413B27A48A3500CF8C04 /* ViewController.swift */; };
-		C9B1413F27A48A3500CF8C04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9B1413D27A48A3500CF8C04 /* Main.storyboard */; };
+		C9B1413C27A48A3500CF8C04 /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B1413B27A48A3500CF8C04 /* HomeScreenViewController.swift */; };
+		C9B1413F27A48A3500CF8C04 /* HomeScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9B1413D27A48A3500CF8C04 /* HomeScreen.storyboard */; };
 		C9B1414227A48A3500CF8C04 /* ModernFertility.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C9B1414027A48A3500CF8C04 /* ModernFertility.xcdatamodeld */; };
 		C9B1414427A48A3900CF8C04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9B1414327A48A3900CF8C04 /* Assets.xcassets */; };
 		C9B1414727A48A3900CF8C04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9B1414527A48A3900CF8C04 /* LaunchScreen.storyboard */; };
@@ -48,11 +51,14 @@
 		A65C6F02856DE57EAB265B6D /* libPods-ModernFertilityTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ModernFertilityTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B23015F4C92E3F594DADB22E /* Pods_ModernFertility.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ModernFertility.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B59DE8AD02AA8F88E6C78552 /* Pods-ModernFertilityTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModernFertilityTests.release.xcconfig"; path = "Target Support Files/Pods-ModernFertilityTests/Pods-ModernFertilityTests.release.xcconfig"; sourceTree = "<group>"; };
+		C983ADAA27A49568008EAE56 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		C983ADAE27A498A4008EAE56 /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		C983ADB227A49CB2008EAE56 /* ImagesNetworking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesNetworking.swift; sourceTree = "<group>"; };
 		C9B1413427A48A3500CF8C04 /* ModernFertility.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModernFertility.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9B1413727A48A3500CF8C04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9B1413927A48A3500CF8C04 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C9B1413B27A48A3500CF8C04 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C9B1413E27A48A3500CF8C04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C9B1413B27A48A3500CF8C04 /* HomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
+		C9B1413E27A48A3500CF8C04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/HomeScreen.storyboard; sourceTree = "<group>"; };
 		C9B1414127A48A3500CF8C04 /* ModernFertility.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ModernFertility.xcdatamodel; sourceTree = "<group>"; };
 		C9B1414327A48A3900CF8C04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9B1414627A48A3900CF8C04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -103,7 +109,6 @@
 				CBA0E1CF937344818157B293 /* Pods-ModernFertilityUITests.debug.xcconfig */,
 				631F4E966E139F67CB6B36B0 /* Pods-ModernFertilityUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -115,6 +120,38 @@
 				3FAB9A4E457FE1C83F0D269A /* libPods-ModernFertilityUITests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C983ADAC27A495D4008EAE56 /* Routers */ = {
+			isa = PBXGroup;
+			children = (
+				C983ADB227A49CB2008EAE56 /* ImagesNetworking.swift */,
+			);
+			path = Routers;
+			sourceTree = "<group>";
+		};
+		C983ADAD27A497C6008EAE56 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C983ADAE27A498A4008EAE56 /* Images.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C983ADB027A49BCE008EAE56 /* Home Screen */ = {
+			isa = PBXGroup;
+			children = (
+				C9B1413D27A48A3500CF8C04 /* HomeScreen.storyboard */,
+				C9B1413B27A48A3500CF8C04 /* HomeScreenViewController.swift */,
+			);
+			path = "Home Screen";
+			sourceTree = "<group>";
+		};
+		C983ADB127A49C18008EAE56 /* Image Detail Screen */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Image Detail Screen";
 			sourceTree = "<group>";
 		};
 		C9B1412B27A48A3500CF8C04 = {
@@ -143,8 +180,8 @@
 			isa = PBXGroup;
 			children = (
 				C9B1416A27A48ABF00CF8C04 /* Application Delegate */,
-				C9B1416E27A48B5F00CF8C04 /* Views */,
-				C9B1416B27A48AD100CF8C04 /* View Controllers */,
+				C983ADB027A49BCE008EAE56 /* Home Screen */,
+				C983ADB127A49C18008EAE56 /* Image Detail Screen */,
 				C9B1416D27A48B4600CF8C04 /* Networking */,
 				C9B1416C27A48B2000CF8C04 /* Storyboards */,
 				C9B1414327A48A3900CF8C04 /* Assets.xcassets */,
@@ -180,18 +217,9 @@
 			path = "Application Delegate";
 			sourceTree = "<group>";
 		};
-		C9B1416B27A48AD100CF8C04 /* View Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				C9B1413B27A48A3500CF8C04 /* ViewController.swift */,
-			);
-			path = "View Controllers";
-			sourceTree = "<group>";
-		};
 		C9B1416C27A48B2000CF8C04 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
-				C9B1413D27A48A3500CF8C04 /* Main.storyboard */,
 				C9B1414527A48A3900CF8C04 /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
@@ -200,15 +228,11 @@
 		C9B1416D27A48B4600CF8C04 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				C983ADAA27A49568008EAE56 /* Networking.swift */,
+				C983ADAD27A497C6008EAE56 /* Models */,
+				C983ADAC27A495D4008EAE56 /* Routers */,
 			);
 			path = Networking;
-			sourceTree = "<group>";
-		};
-		C9B1416E27A48B5F00CF8C04 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -321,7 +345,7 @@
 			files = (
 				C9B1414727A48A3900CF8C04 /* LaunchScreen.storyboard in Resources */,
 				C9B1414427A48A3900CF8C04 /* Assets.xcassets in Resources */,
-				C9B1413F27A48A3500CF8C04 /* Main.storyboard in Resources */,
+				C9B1413F27A48A3500CF8C04 /* HomeScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,9 +456,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9B1413C27A48A3500CF8C04 /* ViewController.swift in Sources */,
+				C9B1413C27A48A3500CF8C04 /* HomeScreenViewController.swift in Sources */,
+				C983ADAF27A498A4008EAE56 /* Images.swift in Sources */,
+				C983ADAB27A49568008EAE56 /* Networking.swift in Sources */,
 				C9B1414227A48A3500CF8C04 /* ModernFertility.xcdatamodeld in Sources */,
 				C9B1413827A48A3500CF8C04 /* AppDelegate.swift in Sources */,
+				C983ADB327A49CB2008EAE56 /* ImagesNetworking.swift in Sources */,
 				C9B1413A27A48A3500CF8C04 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -472,12 +499,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C9B1413D27A48A3500CF8C04 /* Main.storyboard */ = {
+		C9B1413D27A48A3500CF8C04 /* HomeScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				C9B1413E27A48A3500CF8C04 /* Base */,
 			);
-			name = Main.storyboard;
+			name = HomeScreen.storyboard;
 			sourceTree = "<group>";
 		};
 		C9B1414527A48A3900CF8C04 /* LaunchScreen.storyboard */ = {
@@ -620,7 +647,7 @@
 				INFOPLIST_FILE = ModernFertility/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = HomeScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -629,7 +656,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.modernfertility.coding.challenge.ModernFertility;
+				PRODUCT_BUNDLE_IDENTIFIER = com.modernfertility.coding.challenge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -650,7 +677,7 @@
 				INFOPLIST_FILE = ModernFertility/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = HomeScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -659,7 +686,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.modernfertility.coding.challenge.ModernFertility;
+				PRODUCT_BUNDLE_IDENTIFIER = com.modernfertility.coding.challenge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
