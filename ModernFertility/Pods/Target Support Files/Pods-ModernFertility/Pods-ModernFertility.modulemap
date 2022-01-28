@@ -1,0 +1,6 @@
+framework module Pods_ModernFertility {
+  umbrella header "Pods-ModernFertility-umbrella.h"
+
+  export *
+  module * { export * }
+}
