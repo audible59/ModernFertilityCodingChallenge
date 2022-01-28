@@ -111,6 +111,7 @@ extension Networking {
         self.genericRequest(with: endpoint) { data, result in
             switch result {
             case .success:
+                
                 do {
 //                    // Pretty Printed format for the server response
 //                    if let json = try? JSONSerialization.jsonObject(with: data!, options: .mutableContainers),
@@ -132,7 +133,7 @@ extension Networking {
                     print("Networking Line# \(#line) - There was an error decoding the Images data: \(error.localizedDescription)")
                     completion(nil, .error)
                 }
-                completion(data, .success)
+                
             case .failure:
                 completion(data, .failure)
             case .error:
