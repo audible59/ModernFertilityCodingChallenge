@@ -6,9 +6,9 @@
 //
 
 public struct Images: Decodable {
-    var id: Int?
-    var url: String?
-    var title: String?
-    var albumId: Int?
-    var thumbnailUrl: String?
+    var id: Int
+    var url: String
+    var title: String
+    var albumId: Int
+    var thumbnailUrl: String
 }

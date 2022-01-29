@@ -11,6 +11,8 @@
 		C983ADAB27A49568008EAE56 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = C983ADAA27A49568008EAE56 /* Networking.swift */; };
 		C983ADAF27A498A4008EAE56 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = C983ADAE27A498A4008EAE56 /* Images.swift */; };
 		C983ADB327A49CB2008EAE56 /* ImagesNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = C983ADB227A49CB2008EAE56 /* ImagesNetworking.swift */; };
+		C983ADB727A4B647008EAE56 /* ImagesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C983ADB527A4B647008EAE56 /* ImagesTableViewCell.swift */; };
+		C983ADB827A4B647008EAE56 /* ImagesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C983ADB627A4B647008EAE56 /* ImagesTableViewCell.xib */; };
 		C9B1413827A48A3500CF8C04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B1413727A48A3500CF8C04 /* AppDelegate.swift */; };
 		C9B1413A27A48A3500CF8C04 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B1413927A48A3500CF8C04 /* SceneDelegate.swift */; };
 		C9B1413C27A48A3500CF8C04 /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B1413B27A48A3500CF8C04 /* HomeScreenViewController.swift */; };
@@ -54,6 +56,8 @@
 		C983ADAA27A49568008EAE56 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
 		C983ADAE27A498A4008EAE56 /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
 		C983ADB227A49CB2008EAE56 /* ImagesNetworking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesNetworking.swift; sourceTree = "<group>"; };
+		C983ADB527A4B647008EAE56 /* ImagesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesTableViewCell.swift; sourceTree = "<group>"; };
+		C983ADB627A4B647008EAE56 /* ImagesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImagesTableViewCell.xib; sourceTree = "<group>"; };
 		C9B1413427A48A3500CF8C04 /* ModernFertility.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModernFertility.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9B1413727A48A3500CF8C04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9B1413927A48A3500CF8C04 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -143,6 +147,7 @@
 			children = (
 				C9B1413D27A48A3500CF8C04 /* HomeScreen.storyboard */,
 				C9B1413B27A48A3500CF8C04 /* HomeScreenViewController.swift */,
+				C983ADB427A4B5ED008EAE56 /* Cell */,
 			);
 			path = "Home Screen";
 			sourceTree = "<group>";
@@ -152,6 +157,15 @@
 			children = (
 			);
 			path = "Image Detail Screen";
+			sourceTree = "<group>";
+		};
+		C983ADB427A4B5ED008EAE56 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				C983ADB627A4B647008EAE56 /* ImagesTableViewCell.xib */,
+				C983ADB527A4B647008EAE56 /* ImagesTableViewCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		C9B1412B27A48A3500CF8C04 = {
@@ -344,6 +358,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9B1414727A48A3900CF8C04 /* LaunchScreen.storyboard in Resources */,
+				C983ADB827A4B647008EAE56 /* ImagesTableViewCell.xib in Resources */,
 				C9B1414427A48A3900CF8C04 /* Assets.xcassets in Resources */,
 				C9B1413F27A48A3500CF8C04 /* HomeScreen.storyboard in Resources */,
 			);
@@ -461,6 +476,7 @@
 				C983ADAB27A49568008EAE56 /* Networking.swift in Sources */,
 				C9B1414227A48A3500CF8C04 /* ModernFertility.xcdatamodeld in Sources */,
 				C9B1413827A48A3500CF8C04 /* AppDelegate.swift in Sources */,
+				C983ADB727A4B647008EAE56 /* ImagesTableViewCell.swift in Sources */,
 				C983ADB327A49CB2008EAE56 /* ImagesNetworking.swift in Sources */,
 				C9B1413A27A48A3500CF8C04 /* SceneDelegate.swift in Sources */,
 			);
