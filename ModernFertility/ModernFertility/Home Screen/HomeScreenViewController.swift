@@ -11,6 +11,15 @@ import AlamofireImage
 
 class HomeScreenViewController: UIViewController {
     
+    // MARK: - ENUM
+    
+    enum HomeScreenViewControllerConstants {
+        static let screenTitle = NSLocalizedString(
+            "Modern Fertility",
+            comment: "The title of the Home screen."
+        )
+    }
+    
     // MARK: - Properties
     
     let cellNibName: String = "ImagesTableViewCell"
@@ -34,6 +43,8 @@ class HomeScreenViewController: UIViewController {
     // MARK: - Setup
     
     private func setupTableView() {
+        self.title = HomeScreenViewControllerConstants.screenTitle
+        
         tableView.delegate = self
         tableView.dataSource = self
         
@@ -107,7 +118,10 @@ extension HomeScreenViewController: UITableViewDelegate, UITableViewDataSource {
             cell.detailLabel.text = imageDetails.title
             
             if let url = URL(string: imageDetails.thumbnailUrl) {
-                cell.thumbnailImage.af.setImage(withURL: url, placeholderImage: UIImage(named: "placeHolderImage"))
+                cell.thumbnailImage.af.setImage(
+                    withURL: url,
+                    placeholderImage: UIImage(named: "placeHolderImage")
+                )
             } else {
                 cell.thumbnailImage.image = UIImage(named: "placeHolderImage")
             }
@@ -119,6 +133,19 @@ extension HomeScreenViewController: UITableViewDelegate, UITableViewDataSource {
     // MARK: - UITableView Delegate
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let storyboard = UIStoryboard(name: "ImageDetail", bundle: nil)
         
+        if let imageDetailViewController = storyboard.instantiateViewController(withIdentifier: "ImageDetailStoryboardID") as? ImageDetailViewController {
+            guard let imageDetail = imageList?[indexPath.section] else {
+                return
+            }
+            
+            imageDetailViewController.imageURL = URL(string: imageDetail.url)
+            imageDetailViewController.imageTitle = imageDetail.title
+            
+            self.present(imageDetailViewController, animated: true, completion: nil)
+        }
+        
+        tableView.deselectRow(at: indexPath, animated: true)
     }
 }

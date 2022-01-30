@@ -13,6 +13,9 @@
 		C983ADB327A49CB2008EAE56 /* ImagesNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = C983ADB227A49CB2008EAE56 /* ImagesNetworking.swift */; };
 		C983ADB727A4B647008EAE56 /* ImagesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C983ADB527A4B647008EAE56 /* ImagesTableViewCell.swift */; };
 		C983ADB827A4B647008EAE56 /* ImagesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C983ADB627A4B647008EAE56 /* ImagesTableViewCell.xib */; };
+		C983ADBA27A4F413008EAE56 /* ImageDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C983ADB927A4F413008EAE56 /* ImageDetailViewController.swift */; };
+		C983ADBC27A4F43E008EAE56 /* ImageDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C983ADBB27A4F43E008EAE56 /* ImageDetail.storyboard */; };
+		C983ADBE27A504BA008EAE56 /* ImageDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C983ADBD27A504BA008EAE56 /* ImageDetailView.swift */; };
 		C9B1413827A48A3500CF8C04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B1413727A48A3500CF8C04 /* AppDelegate.swift */; };
 		C9B1413A27A48A3500CF8C04 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B1413927A48A3500CF8C04 /* SceneDelegate.swift */; };
 		C9B1413C27A48A3500CF8C04 /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B1413B27A48A3500CF8C04 /* HomeScreenViewController.swift */; };
@@ -58,6 +61,9 @@
 		C983ADB227A49CB2008EAE56 /* ImagesNetworking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesNetworking.swift; sourceTree = "<group>"; };
 		C983ADB527A4B647008EAE56 /* ImagesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesTableViewCell.swift; sourceTree = "<group>"; };
 		C983ADB627A4B647008EAE56 /* ImagesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImagesTableViewCell.xib; sourceTree = "<group>"; };
+		C983ADB927A4F413008EAE56 /* ImageDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailViewController.swift; sourceTree = "<group>"; };
+		C983ADBB27A4F43E008EAE56 /* ImageDetail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ImageDetail.storyboard; sourceTree = "<group>"; };
+		C983ADBD27A504BA008EAE56 /* ImageDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailView.swift; sourceTree = "<group>"; };
 		C9B1413427A48A3500CF8C04 /* ModernFertility.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModernFertility.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9B1413727A48A3500CF8C04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9B1413927A48A3500CF8C04 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -155,6 +161,9 @@
 		C983ADB127A49C18008EAE56 /* Image Detail Screen */ = {
 			isa = PBXGroup;
 			children = (
+				C983ADBB27A4F43E008EAE56 /* ImageDetail.storyboard */,
+				C983ADB927A4F413008EAE56 /* ImageDetailViewController.swift */,
+				C983ADBD27A504BA008EAE56 /* ImageDetailView.swift */,
 			);
 			path = "Image Detail Screen";
 			sourceTree = "<group>";
@@ -360,6 +369,7 @@
 				C9B1414727A48A3900CF8C04 /* LaunchScreen.storyboard in Resources */,
 				C983ADB827A4B647008EAE56 /* ImagesTableViewCell.xib in Resources */,
 				C9B1414427A48A3900CF8C04 /* Assets.xcassets in Resources */,
+				C983ADBC27A4F43E008EAE56 /* ImageDetail.storyboard in Resources */,
 				C9B1413F27A48A3500CF8C04 /* HomeScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -478,7 +488,9 @@
 				C9B1413827A48A3500CF8C04 /* AppDelegate.swift in Sources */,
 				C983ADB727A4B647008EAE56 /* ImagesTableViewCell.swift in Sources */,
 				C983ADB327A49CB2008EAE56 /* ImagesNetworking.swift in Sources */,
+				C983ADBA27A4F413008EAE56 /* ImageDetailViewController.swift in Sources */,
 				C9B1413A27A48A3500CF8C04 /* SceneDelegate.swift in Sources */,
+				C983ADBE27A504BA008EAE56 /* ImageDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
